@@ -24,7 +24,7 @@ public class TestUserprofile extends UserProfile {
             
         }
        String FavoriteGenre =scan.nextLine();
-       if ("".equals(userID) && "".equals(FavoriteGenre)) {
+       if (!"".equals(userID) && !"".equals(FavoriteGenre)) {
            System.out.println("UserProfile was created");
         } else{
            System.out.println("error, please try again.")
