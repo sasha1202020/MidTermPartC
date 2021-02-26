@@ -25,6 +25,10 @@ public class UserProfile
      * @param givenID the ID to assign to this user
      * @param givenGenre the users favourite genre
      */
+    //standard constructor added @Aleksandr Sirik
+    public UserProfile(){
+    
+    }
     public UserProfile(String givenID, String givenGenre)
     {
         userID = givenID;
